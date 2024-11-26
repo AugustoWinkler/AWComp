@@ -1,0 +1,20 @@
+@keyframes effect009 {
+  50% {
+    filter: blur(20px);
+    transform: skew(-45deg);
+  }
+}
+
+.Text009-container{
+  width: 90%;
+  overflow: hidden ;
+}
+
+.Text009 {
+  margin: 50px;
+  color: white;
+  overflow: hidden;
+  animation-name: effect009;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}

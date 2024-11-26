@@ -1,0 +1,25 @@
+@keyframes effect006 {
+    0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(100%); 
+      }
+}
+
+.Text006-container{
+    overflow: hidden;
+    background-color: white;
+}
+
+.Text006{
+    animation-name: effect006;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.Text006 h1{
+  color: black;
+
+}

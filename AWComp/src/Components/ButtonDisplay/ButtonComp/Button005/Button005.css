@@ -1,0 +1,36 @@
+.Button005 {
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 1em;
+    background-color: #242424;
+    color: white;
+    border: 1px solid orange;
+    padding: 15px;
+    position: relative;
+    text-decoration: none;
+    transition: 300ms
+
+  }
+  
+  .Button005:before {
+    animation: .5s step-end forwards;
+    backface-visibility: hidden;
+    background-color: orange;
+    clip-path: polygon(-5% 0, 0 0, -25% 100%, -1% 100%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+    width: 100%;
+  }
+  
+  .Button005:hover:before {
+    clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+  }
+  
+  .Button005 span {
+    z-index: 1;
+    position: relative;
+  }

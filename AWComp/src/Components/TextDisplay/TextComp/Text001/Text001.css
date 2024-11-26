@@ -1,0 +1,11 @@
+@keyframes effect001 {
+    0% {color: rgb(255, 255, 255);}
+    100% {color: rgba(255, 255, 255, 0);}
+}
+
+.Text001{
+    animation-name: effect001;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

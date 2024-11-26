@@ -1,0 +1,29 @@
+
+.Button004 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#ff408c, #428cf3 50%,#64f5ff);
+  border: 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  font-size: 1em;
+  justify-content: center;
+  min-width: 140px;
+  padding: 3px;
+ 
+}
+
+.Button004 span {
+  background-color: rgb(40, 29, 80);
+  padding: 16px;  
+  width: 100%;
+  height: 100%;
+  transition: 600ms;
+}
+.Button004:hover span {
+  background: none;
+}
+.Button004:active {
+  opacity: 80%;
+}

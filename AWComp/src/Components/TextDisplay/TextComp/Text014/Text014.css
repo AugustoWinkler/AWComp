@@ -1,0 +1,21 @@
+@keyframes effect014 {
+  0%{background-color: aqua;}
+  60%{background-color: transparent;}
+}
+
+
+.Text014-container{
+  font-size: 30px;
+
+}
+#Text014{
+  letter-spacing: 5px;
+  color: white;
+  animation-timing-function: linear;
+  animation-name: effect014;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: calc(0.3s * var(--i));
+  
+}
+

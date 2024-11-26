@@ -1,0 +1,18 @@
+@keyframes effect008 {
+  50% {
+    transform: skew(180deg);
+  }
+}
+
+.Text008-container{
+  width: 90%;
+  overflow: hidden ;
+}
+
+.Text008 {
+  color: white;
+  overflow: hidden;
+  animation-name: effect008;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}

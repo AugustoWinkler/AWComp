@@ -1,0 +1,12 @@
+@keyframes effect002 {
+    0% {rotate: 2deg;}
+    100% {rotate: -2deg;}
+}
+
+.Text002{
+    color: white;
+    animation-name: effect002;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

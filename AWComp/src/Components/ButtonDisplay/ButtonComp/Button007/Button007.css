@@ -1,0 +1,8 @@
+.Button007 {
+  font-weight: bolder;
+  letter-spacing: 3px;
+  padding: 10px;
+  transition: 0.2s ease;
+  transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));
+  }
+

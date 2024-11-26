@@ -1,0 +1,18 @@
+@keyframes effect015 {
+  0%{color: aqua;}
+}
+
+
+.Text015-container{
+  font-size: 30px;
+
+}
+#Text015{
+  color: white;
+  animation-name: effect015;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: calc(0.5s * var(--i));
+  
+}
+

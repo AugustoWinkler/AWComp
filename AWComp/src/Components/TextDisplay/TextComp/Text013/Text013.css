@@ -1,0 +1,18 @@
+@keyframes effect013 {
+  0%{transform: translateX(100%);}
+  50% {transform: translateX(0%);}
+  100% {transform: scale(200%); color: transparent;}
+
+}
+
+.Text013-container{
+  width: 90%;
+  overflow: hidden ;
+}
+
+.Text013 {
+  color: white;
+  animation-name: effect013;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}

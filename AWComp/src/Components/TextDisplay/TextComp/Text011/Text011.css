@@ -1,0 +1,18 @@
+@keyframes effect011 {
+  50%,
+  100% {
+    transform: rotate(1800deg);
+  }
+}
+
+.Text011-container{
+  width: 90%;
+  overflow: hidden ;
+}
+
+.Text011 {
+  color: white;
+  animation-name: effect011;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}

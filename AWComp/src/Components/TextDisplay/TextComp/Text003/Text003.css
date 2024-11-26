@@ -1,0 +1,12 @@
+@keyframes effect003 {
+    0% {font-size: 1.5em;}
+    100% {font-size: 2.1em;}
+}
+
+.Text003{
+    color: white;
+    animation-name: effect003;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

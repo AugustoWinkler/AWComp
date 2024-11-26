@@ -1,0 +1,16 @@
+@keyframes effect004 {
+    0% {background-color: red;}
+    100% {background-color: blue;}
+}
+
+.Text004{
+    padding: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: white;
+    animation-name: effect004;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

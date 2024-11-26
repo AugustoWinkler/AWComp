@@ -1,0 +1,21 @@
+@keyframes effect010 {
+ from{
+  transform: translateY(100%);
+  filter: blur(10px);
+ }
+ to{
+  transform: translateY(0%);
+ }
+}
+
+.Text010-container{
+  width: 90%;
+  overflow: hidden ;
+}
+
+.Text010 {
+  color: white;
+  animation-name: effect010;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}

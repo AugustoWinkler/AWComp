@@ -1,0 +1,17 @@
+@keyframes effect005 {
+    0% {background-image: linear-gradient(60deg, blue , red,blue ); background-position-x: 100px; background-repeat: round;}
+    100% {background-image: linear-gradient(60deg, blue , red,blue); background-position-x: 300px; background-repeat: round;}
+}
+
+.Text005{
+    padding: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: white;
+    animation-fill-mode: initial;
+    animation-name: effect005;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
