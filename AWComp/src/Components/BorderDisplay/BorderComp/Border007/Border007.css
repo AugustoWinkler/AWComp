@@ -1,0 +1,122 @@
+.Border007 {
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+  height: 80%;
+  & span {
+    position: absolute;
+    border-radius: 100vmax;
+  }
+}
+
+.top007 {
+  top: 0;
+  left: 0;
+  
+  height: 4px;
+  background-color: orange;
+}
+
+.bottom007 {
+  right: 0;
+  bottom: 0;
+  height: 4px;
+  background-color: orange;
+}
+
+.right007 {
+  top: 0;
+  right: 0;
+  width: 4px;
+  background-color: orange;
+}
+
+.left007 {
+  left: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: orange;
+}
+
+.top007 {
+  animation: animateTop007 4s linear infinite;
+
+}
+
+.bottom007 {
+  animation: animateBottom007 4s linear infinite;
+
+}
+
+.right007 {
+  animation: animateRight007 4s linear infinite;
+
+}
+
+.left007 {
+  animation: animateLeft007 4s linear infinite;
+
+}
+
+@keyframes animateTop007 {
+  0% {
+    width: 50%;
+    left: 25%;
+  }
+  50% {
+    width: 100%;
+    left: 0%;
+  }
+  100%{
+    width: 50%;
+    left: 25%;
+  }
+}
+
+@keyframes animateBottom007 {
+  0% {
+    width: 50%;
+    left: 25%;
+  }
+  50% {
+    width: 100%;
+    left: 0%;
+  }
+  100%{
+    width: 50%;
+    left: 25%;
+  }
+}
+
+
+@keyframes animateRight007 {
+  0% {
+    height: 50%;
+    top: 25%;
+  }
+
+  50% {
+    height: 100%;
+    top: 0%;
+  }
+  100% {
+    height: 50%;
+    top: 25%;
+  }
+}
+
+@keyframes animateLeft007 {
+  0% {
+    height: 50%;
+    top: 25%;
+  }
+
+  50% {
+    height: 100%;
+    top: 0%;
+  }
+  100% {
+    height: 50%;
+    top: 25%;
+  }
+}

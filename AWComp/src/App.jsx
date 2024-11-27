@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import TextDisplay from './Components/TextDisplay'
 import ButtonDisplay from './Components/ButtonDisplay'
+import BorderDisplay from './Components/BorderDisplay'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
   <div class="main">
     <TextDisplay/>
     <ButtonDisplay/>
+    <BorderDisplay/>
 
 
   </div>  

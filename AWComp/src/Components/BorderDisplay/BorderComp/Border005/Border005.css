@@ -1,0 +1,100 @@
+.Border005 {
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+  height: 80%;
+  & span {
+    position: absolute;
+    border-radius: 100vmax;
+  }
+}
+
+
+
+
+.top005 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: red;
+}
+
+.bottom005 {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: red;
+}
+
+.right005 {
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 100%;
+  background-color: red;
+}
+
+.left005 {
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  height: 100%;
+  background-color: red;
+}
+
+.top005 {
+  animation: animateTop005 4s linear infinite;
+}
+
+.bottom005 {
+  animation: animateBottom005 4s linear infinite;
+}
+
+.right005 {
+  animation: animateRight005 4s linear infinite;
+}
+
+.left005 {
+  animation: animateLeft005 4s linear infinite;
+}
+
+@keyframes animateTop005 {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes animateBottom005 {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+
+@keyframes animateRight005 {
+  0% {
+    top: -100%;
+  }
+
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes animateLeft005 {
+  0% {
+    top: 100%;
+  }
+
+  100% {
+    top: -100%;
+  }
+}

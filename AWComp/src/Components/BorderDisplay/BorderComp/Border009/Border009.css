@@ -1,0 +1,111 @@
+.Border009 {
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+  height: 80%;
+  & span {
+    position: absolute;
+    border-radius: 100vmax;
+  }
+}
+
+.top009 {
+  top: 0;
+  left: 0;
+  
+  height: 4px;
+  background-color: deeppink;
+}
+
+.bottom009 {
+  right: 0;
+  bottom: 0;
+  height: 4px;
+  background-color: deeppink;
+}
+
+.right009 {
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 100%;
+  background-color: deeppink;
+}
+
+.left009 {
+  left: 0;
+  bottom: 0;
+  width: 4px;
+  height: 100%;
+  background-color: deeppink;
+}
+
+.top009 {
+  animation: animateTop009 3s linear infinite alternate;
+
+}
+
+.bottom009 {
+  animation: animateBottom009 3s linear infinite alternate;
+
+}
+
+.right009 {
+  animation: animateRight009 3s linear infinite alternate;
+
+}
+
+.left009 {
+  animation: animateLeft009 3s linear infinite alternate;
+
+}
+
+@keyframes animateTop009 {
+  0% {
+    width: 0%;
+
+  }
+  10% {
+    width: 100%;
+
+  }
+  100%{width: 100%;}
+}
+
+@keyframes animateBottom009 {
+  0%,
+  20% {
+    width: 0%;
+
+  }
+  30% {
+    width: 100%;
+  }
+  100%{width: 100%;}
+}
+
+
+@keyframes animateRight009 {
+  0%,
+  10% {
+    height: 0%;
+  }
+
+  20% {
+    height: 100%;
+  }
+  100%{height: 100%;}
+}
+
+@keyframes animateLeft009 {
+  0%,
+  30% {
+    height: 0%;
+  }
+
+  40% {
+    height: 100%;
+  }
+  100%{height: 100%;}
+}
+
