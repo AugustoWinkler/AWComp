@@ -1,5 +1,5 @@
 :root {
-  background-color: #242424;
+  background-image: url('./bg.svg');
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

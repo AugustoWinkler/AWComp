@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice" width="1920" height="1080">
+  <!-- Fundo principal -->
+  <rect width="100%" height="100%" fill="#242424" />
+
+  <!-- Formas geométricas com movimento -->
+  <g opacity="0.6">
+    <!-- Quadrado -->
+    <rect x="100" y="-30" width="40" height="40" fill="none" stroke="#888888" stroke-width="2">
+      <animate attributeName="y" from="-30" to="1080" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="opacity" from="1" to="0" dur="10s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- Círculo -->
+    <circle cx="200" cy="-50" r="25" fill="none" stroke="#888888" stroke-width="2">
+      <animate attributeName="cy" from="-50" to="1080" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" from="1" to="0" dur="8s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Linha -->
+    <line x1="400" y1="-30" x2="400" y2="50" stroke="#888888" stroke-width="2">
+      <animate attributeName="y1" from="-30" to="1080" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="y2" from="-30" to="1080" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="opacity" from="1" to="0" dur="12s" repeatCount="indefinite" />
+    </line>
+
+    <!-- Quadrado -->
+    <rect x="500" y="-50" width="50" height="50" fill="none" stroke="#888888" stroke-width="2">
+      <animate attributeName="y" from="-50" to="1080" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="opacity" from="1" to="0" dur="14s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- Círculo -->
+    <circle cx="650" cy="-100" r="20" fill="none" stroke="#888888" stroke-width="2">
+      <animate attributeName="cy" from="-100" to="1080" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" from="1" to="0" dur="6s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Linha -->
+    <line x1="800" y1="-50" x2="800" y2="50" stroke="#888888" stroke-width="2">
+      <animate attributeName="y1" from="-50" to="1080" dur="16s" repeatCount="indefinite" />
+      <animate attributeName="y2" from="-50" to="1080" dur="16s" repeatCount="indefinite" />
+      <animate attributeName="opacity" from="1" to="0" dur="16s" repeatCount="indefinite" />
+    </line>
+
+    <!-- Quadrado -->
+    <rect x="900" y="-30" width="30" height="30" fill="none" stroke="#888888" stroke-width="2">
+      <animate attributeName="y" from="-30" to="1080" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="opacity" from="1" to="0" dur="9s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- Círculo -->
+    <circle cx="1100" cy="-70" r="15" fill="none" stroke="#888888" stroke-width="2">
+      <animate attributeName="cy" from="-70" to="1080" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" from="1" to="0" dur="7s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Linha -->
+    <line x1="1300" y1="-80" x2="1300" y2="50" stroke="#888888" stroke-width="2">
+      <animate attributeName="y1" from="-80" to="1080" dur="13s" repeatCount="indefinite" />
+      <animate attributeName="y2" from="-80" to="1080" dur="13s" repeatCount="indefinite" />
+      <animate attributeName="opacity" from="1" to="0" dur="13s" repeatCount="indefinite" />
+    </line>
+
+    <!-- Quadrado -->
+    <rect x="1400" y="-60" width="45" height="45" fill="none" stroke="#888888" stroke-width="2">
+      <animate attributeName="y" from="-60" to="1080" dur="15s" repeatCount="indefinite" />
+      <animate attributeName="opacity" from="1" to="0" dur="15s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- Círculo -->
+    <circle cx="1600" cy="-120" r="18" fill="none" stroke="#888888" stroke-width="2">
+      <animate attributeName="cy" from="-120" to="1080" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="opacity" from="1" to="0" dur="9s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Linha -->
+    <line x1="1800" y1="-100" x2="1800" y2="50" stroke="#888888" stroke-width="2">
+      <animate attributeName="y1" from="-100" to="1080" dur="18s" repeatCount="indefinite" />
+      <animate attributeName="y2" from="-100" to="1080" dur="18s" repeatCount="indefinite" />
+      <animate attributeName="opacity" from="1" to="0" dur="18s" repeatCount="indefinite" />
+    </line>
+
+    <!-- Quadrado -->
+    <rect x="1900" y="-90" width="25" height="25" fill="none" stroke="#888888" stroke-width="2">
+      <animate attributeName="y" from="-90" to="1080" dur="17s" repeatCount="indefinite" />
+      <animate attributeName="opacity" from="1" to="0" dur="17s" repeatCount="indefinite" />
+    </rect>
+  </g>
+</svg>
